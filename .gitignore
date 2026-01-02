@@ -28,3 +28,4 @@ sandbox.ipynb
 # Presentation slides
 outputs/*key
 outputs/*pptx
+!outputs/*csv
