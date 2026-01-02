@@ -1,0 +1,19 @@
+repos:
+
+  - repo: https://github.com/RobertCraigie/pyright-python
+    rev: v1.1.406
+    hooks:
+    - id: pyright
+      additional_dependencies: ['.']
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.4
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.8.1
+    hooks:
+      - id: nbstripout
