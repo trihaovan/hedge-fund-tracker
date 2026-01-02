@@ -182,15 +182,3 @@ make data
 ### SEC Rate Limiting
 
 The SEC EDGAR API has rate limits. If you encounter errors during fresh data fetches, wait a few minutes and try again.
-
-## Technology Stack
-
-- **Python 3.12** - Core language
-- **edgartools** - SEC EDGAR API wrapper
-- **PostgreSQL 17** - Data storage
-- **Streamlit** - Dashboard framework
-- **Plotly** - Interactive charts
-- **rapidfuzz** - Fuzzy string matching
-- **OpenAI** - Name variation generation
-- **Docker** - Database containerisation
-- **uv** - Fast Python package management
